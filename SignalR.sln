@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.SignalR.API", "Udemy.SignalR.API\Udemy.SignalR.API.csproj", "{DB4B56ED-4CE3-486F-BC3B-57D2D27E6BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udemy.SignalR.WEB", "SignalR.WEB\Udemy.SignalR.WEB.csproj", "{938D1F9E-1E1A-4C5F-BFDC-A95DAEA872F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4B56ED-4CE3-486F-BC3B-57D2D27E6BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4B56ED-4CE3-486F-BC3B-57D2D27E6BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4B56ED-4CE3-486F-BC3B-57D2D27E6BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4B56ED-4CE3-486F-BC3B-57D2D27E6BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938D1F9E-1E1A-4C5F-BFDC-A95DAEA872F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938D1F9E-1E1A-4C5F-BFDC-A95DAEA872F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938D1F9E-1E1A-4C5F-BFDC-A95DAEA872F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938D1F9E-1E1A-4C5F-BFDC-A95DAEA872F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5154D235-8339-40FF-AB64-7F62465529D0}
+	EndGlobalSection
+EndGlobal
