@@ -6,19 +6,35 @@
 {
     <script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
     <script type="text/javascript">
-        var connection = new signalR.hubConnectionBuilder().withUrl
-            ("https://localhost:44398/MyHub ")
+            $(document).ready(() => {
+                var connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:44398/MyHub").build();
 
-        $("#conStatus").text(connection.connectionstate);
-        connection.start().then(() => {
             $("#conStatus").text(connection.connectionstate);
-        }).catch(err)=> { console.log(err) });
+            connection.start().then(() => {
+                $("#conStatus").text(connection.connectionstate);
+            }).catch((err) => { console.log(err) });
+
+            $("$btnNameSave").click(() => {
+                connection.invoke("SendName", $("txtName").val()).catch((err) =>
+                    console.log(err))
+
+            })
+            connection.on("ReceiveNames", (name) => {
+                console.log(name);
+            })
+        })
+  
+       
+     
     </script>
 }
 
 
 <div class="row">
     <div class="col-md-8 offset-2">
+        <input class="form-control" type="text"id="textName"/>
+       <br/>
+        <button class="btn btn-primary" id="btnNameSave">İsim Kaydet</button>
         <div class="alert alert-info">
             Bağlantı Durumu: <strong id="conStatus"></strong>
         </div>

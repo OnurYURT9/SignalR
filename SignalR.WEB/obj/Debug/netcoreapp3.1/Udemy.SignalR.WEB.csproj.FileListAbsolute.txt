@@ -8,7 +8,6 @@ C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\bin\Debug\netcoreapp3.1\Udemy.Sig
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\bin\Debug\netcoreapp3.1\Udemy.SignalR.WEB.pdb
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\bin\Debug\netcoreapp3.1\Udemy.SignalR.WEB.Views.dll
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\bin\Debug\netcoreapp3.1\Udemy.SignalR.WEB.Views.pdb
-C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.csproj.AssemblyReference.cache
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.AssemblyInfoInputs.cache
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.AssemblyInfo.cs
@@ -37,3 +36,4 @@ C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.Sig
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.genruntimeconfig.cache
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.csproj.CopyComplete
 C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\ONUR\source\repos\SignalR\SignalR.WEB\obj\Debug\netcoreapp3.1\Udemy.SignalR.WEB.csproj.AssemblyReference.cache

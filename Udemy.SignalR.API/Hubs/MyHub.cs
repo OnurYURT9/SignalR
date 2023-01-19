@@ -9,7 +9,7 @@ namespace Udemy.SignalR.API.Hubs
     public class MyHub:Hub
     {
         public static List<string> Names { get; set; } = new List<string>();
-        public async Task SetNames(string name)
+        public async Task SendName(string name)
         {
             Names.Add(name);
             // kullanıcılara mesaj gönderme
