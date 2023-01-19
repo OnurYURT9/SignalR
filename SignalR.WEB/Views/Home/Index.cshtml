@@ -15,7 +15,7 @@
             }).catch((err) => { console.log(err) });
 
             $("$btnNameSave").click(() => {
-                connection.invoke("SendName", $("txtName").val()).catch((err) =>
+                connection.invoke("SendName", $("textName").val()).catch((err) =>
                     console.log(err))
 
             })

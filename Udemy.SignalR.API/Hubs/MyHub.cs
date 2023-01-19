@@ -13,7 +13,7 @@ namespace Udemy.SignalR.API.Hubs
         {
             Names.Add(name);
             // kullanıcılara mesaj gönderme
-           await Clients.All.SendAsync("ReceiveMessage", name);
+           await Clients.All.SendAsync("ReceiveName", name);
         }
         public async Task GetNames()
         {

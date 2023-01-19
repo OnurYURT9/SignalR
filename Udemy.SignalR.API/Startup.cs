@@ -30,7 +30,8 @@ namespace Udemy.SignalR.API
             {
                 options.AddPolicy("CorsPolicy", builder =>
                 {
-                    builder.WithOrigins("https://localhost:44398").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+                    builder.WithOrigins("https://localhost:44375").AllowAnyHeader
+                    ().AllowAnyMethod().AllowCredentials();
                 });
             });
             services.AddControllers();

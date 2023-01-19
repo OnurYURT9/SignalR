@@ -18,3 +18,4 @@ C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Ude
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.dll
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.pdb
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.genruntimeconfig.cache
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.csproj.AssemblyReference.cache
