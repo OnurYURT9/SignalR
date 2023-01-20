@@ -18,6 +18,11 @@ namespace Udemy.SignalR.API.Hubs
         private static List<string> Names { get; set; } = new List<string>();
         private static int ClientCount { get; set; } = 0;
         public static int TeamCount { get; set; } = 7;
+
+        public async Task SendProduct(Product p)
+        {
+           await Clients.All.SendAsync("ReceiveProduct", p);
+        }
         public async Task SendName(string name)
         {
             if (Names.Count >= TeamCount)
@@ -45,7 +50,7 @@ namespace Udemy.SignalR.API.Hubs
             await Groups.AddToGroupAsync(Context.ConnectionId, teamName);
         }
         //gruptan silme işlemi
-        public async Task RemoveGroup(string teamName)
+        public async Task RemoveToGroup(string teamName)
         {
             await Groups.RemoveFromGroupAsync(Context.ConnectionId, teamName);
         }
@@ -64,7 +69,7 @@ namespace Udemy.SignalR.API.Hubs
                 _context.Teams.Add(newTeam);
             }
            await _context.SaveChangesAsync();
-            await Clients.Group(teamName).SendAsync("ReceiveMessageByGroup",Name,teamName);
+            await Clients.Group(teamName).SendAsync("ReceiveMessageByGroup",Name,team.Id);
 
         }
 
@@ -73,7 +78,7 @@ namespace Udemy.SignalR.API.Hubs
         {
             var teams = _context.Teams.Include(x => x.Users).Select(x => new
             {
-                teamName = x.Name,
+                teamId = x.Id,
                 Users = x.Users.ToList()
             });
             await Clients.All.SendAsync("ReceiveNamesByGroup", teams);

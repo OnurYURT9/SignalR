@@ -17,8 +17,6 @@ C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Ude
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.pdb
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.genruntimeconfig.cache
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.csproj.AssemblyReference.cache
-C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\Udemy.SignalR.API.StaticWebAssets.xml
-C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Udemy.SignalR.API.styles.css
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -62,3 +60,9 @@ C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\run
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\Udemy.SignalR.API.csproj.CopyComplete
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\bin\Debug\netcoreapp3.1\Udemy.SignalR.API.StaticWebAssets.xml
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\Udemy.SignalR.API.StaticWebAssets.Pack.cache
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.Udemy.SignalR.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Udemy.SignalR.API.props
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Udemy.SignalR.API.props
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Udemy.SignalR.API.props
