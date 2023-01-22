@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using Udemy.SignalR.API.Hubs;
 using Udemy.SignalR.API.Models;
 
-namespace Udemy.SignalR.API
+namespace UdemySignalR.API
 {
     public class Startup
     {

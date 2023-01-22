@@ -66,3 +66,5 @@ C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\sta
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.Udemy.SignalR.API.props
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.Udemy.SignalR.API.props
 C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.Udemy.SignalR.API.props
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\staticwebassets\Udemy.SignalR.API.StaticWebAssets.xml
+C:\Users\ONUR\source\repos\SignalR\Udemy.SignalR.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\Udemy.SignalR.API.styles.css
